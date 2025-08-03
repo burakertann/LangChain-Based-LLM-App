@@ -1,0 +1,9 @@
+if __name__ == "__main__":
+    user_question = "what is the prompt engineering"
+    docs = retriver.get_relevant_documents(user_question)
+    retrived_document = docs[0].page_content
+    print(retriaval_grader.invoke(
+        {"question" : user_question,"documents" : retrived_document}
+    ))
+
+binary_score='yes'

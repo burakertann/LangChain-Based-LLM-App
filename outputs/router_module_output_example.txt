@@ -1,0 +1,11 @@
+print(question_route.invoke(
+        {"question" : "What is the agent memory?"}
+    ))
+
+datasource='vectorstore'
+
+print(question_route.invoke(
+        {"question" : "What is the weather like in Istanbul right now?"}
+    ))
+
+datasource='websearch'
